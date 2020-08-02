@@ -14,6 +14,7 @@ public class DemoApplication {
 	}
 
 }
+//Rest oontroller
 
 @RestController
 class HelloController {
@@ -21,7 +22,7 @@ class HelloController {
 @GetMapping("/hello")
 	String hello(String name)
 {
-	return "hello"+name;
+	return "hello World";
 }
 }
 
